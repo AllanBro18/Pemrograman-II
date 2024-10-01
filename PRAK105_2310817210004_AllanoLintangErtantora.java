@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class PRAK105_2310817210004_AllanoLintangErtantora {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        float phi = 3.14f;
+        final float phi = 3.14f;
         System.out.print("Masukkan jari-jari: ");
         float r = input.nextFloat();
         System.out.print("Masukkan tinggi: ");
